@@ -327,6 +327,12 @@ body {
 
 /* Media query for small screens */
 @media (max-width: 767px) {
+  .hero-section,
+  .about-section,
+  .featured-section,
+  .contact-details {
+    height: 97vh;
+  }
 
   .logo .website-name {
     display: none;
