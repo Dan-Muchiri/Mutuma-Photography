@@ -134,6 +134,10 @@ body {
   font-size: 1.2rem;
 }
 
+.hero-navigation ul li a:hover {
+  text-decoration: underline;
+}
+
 
 .testimonials {
   position: absolute;
