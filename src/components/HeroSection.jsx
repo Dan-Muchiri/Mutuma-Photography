@@ -6,7 +6,7 @@ const HeroSection = () => {
       <div className="hero-content">
         <h1>Welcome to Mutuma Photography</h1>
         <p>Where every moment is captured beautifully</p>
-        <button>Contact Us</button>
+        <a href="#contact"><button>Contact Us</button></a>
       </div>
       <div className="overlay"></div>
       <img className="background-image" src="public/background.avif" alt="Background" />
@@ -22,7 +22,7 @@ const HeroSection = () => {
         <ul>
           <li><a href="#hero-section">Home</a></li>
           <li><a href="#featured-content">Portfolio</a></li>
-          <li><a href="#about">About</a></li>
+          <li><a href="#about-section">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>

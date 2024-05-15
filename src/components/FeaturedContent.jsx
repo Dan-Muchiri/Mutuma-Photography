@@ -46,7 +46,7 @@ const FeaturedContent = () => {
             <a href="#featured-content">Portfolio</a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a href="#about-section">About</a>
           </li>
           <li>
             <a href="#contact">Contact</a>
