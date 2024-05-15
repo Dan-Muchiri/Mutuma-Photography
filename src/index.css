@@ -329,7 +329,7 @@ body {
 @media (max-width: 767px) {
   .hero-section,
   .about-section,
-  .featured-section,
+  .featured-content,
   .contact-details {
     height: 94vh;
   }
