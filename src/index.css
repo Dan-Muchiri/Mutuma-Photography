@@ -218,7 +218,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white overlay */
+  background-color: rgba(0, 0, 0, 0.8); 
 }
 
 .about-section .background-image {
@@ -381,7 +381,7 @@ body {
 
   .testimonials p {
     font-size: 0.8rem; /* Further reduced font size for small screens */
-    color: black;
+    color: white;
   }
 
   .featured-items {

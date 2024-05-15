@@ -28,7 +28,7 @@ const HeroSection = () => {
       </nav>
       <div className="testimonials">
         <p>"Absolutely stunning photography. Highly recommended!"</p>
-        <p>- John Doe, Happy Customer</p>
+        <p>- Dan Munene, Happy Customer</p>
       </div>
     </section>
   );
