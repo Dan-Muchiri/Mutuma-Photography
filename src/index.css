@@ -1,0 +1,259 @@
+/* index.css */
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Teachers", sans-serif;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.logo .website-name {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-right: 10px;
+  font-family: "Style Script", cursive;
+}
+
+.logo img {
+  width: 54px; /* Adjust as needed */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Crop the image */
+  border-radius: 30%;
+  margin-right: 20px;
+}
+
+.hero-section {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-content {
+  z-index: 1;
+  color: black;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: black; /* Dark text color */
+  font-family: "Style Script", cursive;
+}
+
+.hero-content p {
+  font-size: 1.4rem;
+  margin-bottom: 30px;
+  color: black; /* Slightly darker text color */
+}
+
+.hero-content button {
+  background-color: #ff6f61;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero-content button:hover {
+  background-color: #ff4236;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white overlay */
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.scroll-indicator {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+}
+
+.scroll-indicator span {
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+.arrow {
+  width: 20px;
+  height: 20px;
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+}
+
+.hero-navigation {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.hero-navigation ul {
+  list-style-type: none;
+}
+
+.hero-navigation ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.hero-navigation ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+
+.testimonials {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  text-align: right;
+}
+
+.testimonials p {
+  font-size: 1rem;
+  color: white;
+}
+
+/* FeaturedItem component styles */
+.featured-item {
+  margin-bottom: 20px;
+}
+
+.featured-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* FeaturedContent component styles */
+.featured-content {
+  height: 100vh;
+  background-color: #f9f9f9;
+  padding: 0;
+  position: relative;
+  display: flex;
+  margin: 0;
+}
+
+.content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.featured-content h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.featured-items {
+  height: 70vh;
+  width: 80%;
+  position: absolute;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  grid-gap: 20px;
+  margin: auto; /* Center the grid horizontally */
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0 20px; /* Add padding to maintain space on smaller screens */
+}
+
+/* Media query for small screens */
+@media (max-width: 767px) {
+
+  .logo .website-name {
+    display: none;
+  }
+
+  .logo img {
+    width: 40px; /* Further reduced width for small screens */
+    margin-right: 5px; /* Further reduced margin for small screens */
+  }
+
+  .hero-content h1 {
+    font-size: 2rem; /* Further reduced font size for small screens */
+  }
+
+  .hero-content p {
+    font-size: 0.9rem; /* Further reduced font size for small screens */
+    margin-bottom: 15px; /* Reduced margin for small screens */
+  }
+
+  .hero-content button {
+    font-size: 0.9rem; /* Further reduced font size for small screens */
+    padding: 8px 14px; /* Adjusted padding for small screens */
+  }
+
+  .scroll-indicator span {
+    font-size: 0.9rem; /* Further reduced font size for small screens */
+  }
+
+  .arrow {
+    width: 12px; /* Further reduced arrow size for small screens */
+    height: 12px; /* Further reduced arrow size for small screens */
+    padding: 1px; /* Adjusted padding for small screens */
+  }
+
+  .hero-navigation ul li {
+    margin-left: 10px; /* Further reduced margin for small screens */
+  }
+
+  .testimonials {
+    position: absolute;
+    bottom: 35px;
+    right: 20px;
+    text-align: right;
+    
+  }
+
+  .testimonials p {
+    font-size: 0.8rem; /* Further reduced font size for small screens */
+    color: black;
+  }
+
+  .featured-items {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+
+  .featured-content h2 {
+    font-size: 1.5rem;
+  }
+}
