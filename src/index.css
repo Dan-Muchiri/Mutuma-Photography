@@ -149,7 +149,7 @@ body {
 
 /* FeaturedItem component styles */
 .featured-item {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .featured-item img {
@@ -161,7 +161,6 @@ body {
 /* FeaturedContent component styles */
 .featured-content {
   height: 100vh;
-  background-color: #f9f9f9;
   padding: 0;
   position: relative;
   display: flex;
@@ -172,6 +171,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+  z-index: 1;
 }
 
 .featured-content h2 {
@@ -181,19 +181,21 @@ body {
 }
 
 .featured-items {
+  background-color: rgba(249, 249, 249, 0.6); /* Adjust opacity here */
   height: 70vh;
   width: 80%;
   position: absolute;
   overflow-y: auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
-  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 10px;
   margin: auto; /* Center the grid horizontally */
   left: 0;
   right: 0;
   top: 50%;
   transform: translateY(-50%);
-  padding: 0 20px; /* Add padding to maintain space on smaller screens */
+  padding: 10px; /* Add padding to maintain space on smaller screens */
+  border-radius: 10px;
 }
 
 /* Media query for small screens */

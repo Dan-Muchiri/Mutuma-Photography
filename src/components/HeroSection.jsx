@@ -2,7 +2,7 @@ import React from 'react';
 
 const HeroSection = () => {
   return (
-    <section className="hero-section">
+    <section id='hero-section' className="hero-section">
       <div className="hero-content">
         <h1>Welcome to Mutuma Photography</h1>
         <p>Where every moment is captured beautifully</p>
@@ -21,7 +21,7 @@ const HeroSection = () => {
       <nav className="hero-navigation">
         <ul>
           <li><a href="#hero-section">Home</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#featured-content">Portfolio</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
