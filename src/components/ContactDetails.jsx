@@ -4,10 +4,10 @@ const ContactDetails = () => {
   return (
     <section id="contact" className="contact-details">
       <div className="contact-overlay"></div>
-      <img className="contact-background-image" src="public/background4.avif" alt="Background" />
+      <img className="contact-background-image" src="/background4.avif" alt="Background" />
       <div className="logo">
         <span className="website-name">Mutuma Photography</span>
-        <img src="public/camera icon.jpg" alt="Logo" />
+        <img src="/camera icon.jpg" alt="Logo" />
       </div>
       <nav className="hero-navigation">
         <ul>

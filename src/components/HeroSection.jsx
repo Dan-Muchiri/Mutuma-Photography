@@ -9,14 +9,14 @@ const HeroSection = () => {
         <a href="#contact"><button>Contact Us</button></a>
       </div>
       <div className="overlay"></div>
-      <img className="background-image" src="public/background.avif" alt="Background" />
+      <img className="background-image" src="/background.avif" alt="Background" />
       <div className="scroll-indicator">
         <span>Scroll down</span>
         <div className="arrow"></div>
       </div>
       <div className="logo">
         <span className="website-name">Mutuma Photography</span>
-        <img src="public/camera icon.jpg" alt="Logo" />
+        <img src="/camera icon.jpg" alt="Logo" />
       </div>
       <nav className="hero-navigation">
         <ul>
