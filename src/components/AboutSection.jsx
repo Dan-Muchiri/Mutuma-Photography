@@ -23,9 +23,11 @@ const AboutSection = () => {
       </nav>
       <div className="container">
         <h2>About Us</h2>
+        <div className='words'>
         <p>Welcome to Mutuma Photography! We are a team of passionate photographers dedicated to capturing your special moments. With years of experience, we specialize in various types of photography, including weddings, portraits, events, and more.</p>
         <p>Our mission is to provide you with high-quality, creative, and timeless photographs that you will cherish for a lifetime. Whether it's your wedding day, a family portrait, or a corporate event, we strive to exceed your expectations and deliver stunning images that tell your unique story.</p>
         <p>Contact us today to discuss your photography needs and let us help you capture memories that will last a lifetime.</p>
+        </div>
       </div>
     </section>
   );

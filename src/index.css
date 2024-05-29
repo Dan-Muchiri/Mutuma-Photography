@@ -237,6 +237,12 @@ body {
   margin-right: 30px;
 }
 
+.words{
+  background-color: rgba(255, 255, 255, 0.25); /* Change the RGBA values to get the desired color and transparency */
+  border-radius: 20px;
+}
+
+
 .about-section h2 {
   font-size: 3rem;
   margin-top: 20px;
